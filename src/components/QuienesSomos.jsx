@@ -4,21 +4,32 @@ import cohete from "../assets/cohete.webp";
 
 const QuienesSomos = () => {
   return (
-    <main className="h-screen p-4">
+    <main className="min-h-screen p-4">
       <div className="bg-gradient-to-b from-[#D5E6F7] to-white p-8 rounded-t-lg">
-        <div className="relative w-full h-[20rem] overflow-hidden flex items-center justify-center">
-          <img
-            src={jetpack}
-            alt="Jetpack"
-            className="w-[800px] h-[800px] object-contain mt-[15rem]"
-          />
+        <div className="relative w-full overflow-hidden">
+          <div className="hidden md:flex h-[20rem] items-center justify-center">
+            <img
+              src={jetpack}
+              alt="Jetpack"
+              className="w-[800px] h-[800px] object-contain mt-[15rem]"
+            />
+          </div>
         </div>
       </div>
-      <div className="bg-white pb-16 px-30 rounded-b-lg">
-        <div className="text-center mb-12">
-          <h1 className="text-6xl font-bold text-[#133072] mb-6">
+      <div className="bg-white pb-16 px-4 md:px-30 rounded-b-lg">
+        <div className="md:block text-center mb-12">
+          <h1 className="text-4xl md:text-6xl font-bold text-[#133072] mb-6">
             Nuestra misión en el mundo y lo que soñamos para tus hijos
           </h1>
+        </div>
+        <div className="md:hidden aspect-w-16 aspect-h-9 rounded-lg overflow-hidden p-8">
+          <iframe
+            src="https://www.youtube.com/embed/0IlUVfWThdo"
+            title="GManifesto | Genuine Digital School"
+            className="w-full h-full"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowFullScreen
+          />
         </div>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
           <div className="bg-white p-6 rounded-lg text-[#133072] border-2 border-[#133072]">

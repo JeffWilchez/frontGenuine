@@ -10,8 +10,8 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="flex min-h-screen flex-row-reverse bg-gray-100">
-      <div className="w-[15rem] h-screen sticky top-0 right-0 p-6">
+    <div className="flex min-h-screen flex-col md:flex-row-reverse bg-gray-100">
+      <div className="w-full md:w-[15rem] h-auto md:h-screen md:sticky md:top-0 md:right-0 p-6">
         <div className=" bg-white rounded-lg shadow-lg p-6 h-auto">
           <div className="flex justify-between items-center mb-6">
             <button className="text-gray-500 hover:text-gray-700">
@@ -59,7 +59,7 @@ function App() {
               />
             </div>
 
-            <div className="absolute inset-0 flex flex-col items-start justify-center p-12">
+            <div className="absolute inset-0 flex flex-col items-start md:justify-center p-12">
               <div className="w-full max-w-xl bg-gradient-to-b from-[#D5E6F7] to-[#D5ADFB] p-6 rounded-lg">
                 <div className="mb-8">
                   <h1 className="text-4xl font-bold leading-tight text-[#133072]">
