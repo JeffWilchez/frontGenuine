@@ -79,7 +79,7 @@ function App() {
               </div>
             </div>
 
-            <div className="absolute text-white bottom-10 left-1/2 -traslate-x-1-/2 text-xl font-extrabold">
+            <div className="absolute text-white bottom-10 left-1/2 -traslate-x-1-/2 text-4xl font-bold">
               studyatgenuine.com
             </div>
           </div>
