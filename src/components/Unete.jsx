@@ -39,17 +39,29 @@ const Unete = () => {
               Síguenos en Redes Sociales y conoce nuestra gran comunidad digital
             </p>
             <span className="flex justify-center mt-4 gap-4">
-              <FaFacebook className="text-4xl mx-2" />
-              <FaInstagram className="text-4xl mx-2" />
-              <FaTiktok className="text-4xl mx-2" />
-              <FaYoutube className="text-4xl mx-2" />
-              <FaLinkedin className="text-4xl mx-2" />
+              <a href="https://www.facebook.com/genuineds">
+                <FaFacebook className="text-4xl mx-2" />
+              </a>
+
+              <a href="https://www.instagram.com/genuineds/">
+                <FaInstagram className="text-4xl mx-2" />
+              </a>
+
+              <a href="https://www.tiktok.com/@genuineds">
+                <FaTiktok className="text-4xl mx-2" />
+              </a>
+              <a href="https://www.youtube.com/channel/UCy9QgoI87ITVm12d_C0NnZw">
+                <FaYoutube className="text-4xl mx-2" />
+              </a>
+              <a href="https://www.linkedin.com/company/genuine-digital-school/">
+                <FaLinkedin className="text-4xl mx-2" />
+              </a>
             </span>
           </div>
         </div>
 
         <div className="absolute inset-0 flex flex-col items-center justify-end text-white text-4xl font-bold mb-4">
-          studyatgenuine.com
+          <a href="https://studyatgenuine.com/">studyatgenuine.com</a>
         </div>
       </div>
     </main>

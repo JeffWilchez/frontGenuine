@@ -79,8 +79,8 @@ function App() {
               </div>
             </div>
 
-            <div className="absolute text-white bottom-10 left-1/2 -traslate-x-1-/2 text-4xl font-bold">
-              studyatgenuine.com
+            <div className="absolute inset-0 flex flex-col items-center justify-end text-white text-4xl font-bold mb-4">
+              <a href="https://studyatgenuine.com/">studyatgenuine.com</a>
             </div>
           </div>
         </main>
@@ -92,7 +92,7 @@ function App() {
           <div id="somos_estadounidenses">
             <SomosEstadoUnidenses />
           </div>
-          <div id="unete">
+          <div id="unete" className="pt-4">
             <Unete />
           </div>
         </section>
